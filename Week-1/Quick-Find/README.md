@@ -1,5 +1,7 @@
 #Quick Find 
+
 ##Data structure
+
 Integer array of size N, lets say id[]
 
 We say that element p and q are connected if they have the same id.
@@ -10,3 +12,5 @@ Union? To merge components containing p and q, change all entries, whose id equa
 
 See QuickFindUF in Java and Swift.
 
+##Cost
+**Union is too expensive**. It takes N^2 array accesses to process a sequence of N union command on N objects.
